@@ -1,37 +1,37 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-  }
-  
-  .container {
-    display: flex;
-    height: 100vh;
-  }
-  
-  .image {
-    width: 50%;
-    background-image: url("https://i.imgur.com/7X5o41b.jpg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.6;
-  }
-  
-  .text {
-    width: 50%;
-    background-color: #e0f2f1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  h1 {
-    font-size: 4em;
-    color: #4d674d;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    font-size: 1.5em;
-    color: #4d674d;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cabeçalho {
+  background-color: #300301;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.cabeçalho-título {
+  color: #2e5f29;
+  font-size: 54px;
+}
+
+.cabeçalho-lista {
+  color: #2e5f29;
+  font-size: 22px;
+}
+
+.cabeçalho-logotipo {
+  width: 120px;
+}
+
+.cabeçalho-lista-item1 {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.cabeçalho-lista-item2 {
+  display: inline-block;
+  margin: 0 16px;
+}
