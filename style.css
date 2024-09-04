@@ -35,3 +35,31 @@
   display: inline-block;
   margin: 0 16px;
 }
+
+.nossasatividades {
+  background-image: linear-gradient(#300301, #960903);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+
+}
+
+.nossasatividades-título {
+  font-size: 32px;
+  padding: 24px;
+}
+
+.nossasatividades-texto1 {
+  font-size: 26px;
+  padding: 24px;
+}
+.nossasatividades-div {
+  width: 40%;
+}
+
+.nossasatividades-imagem {
+  width: 30%;
+}
+
